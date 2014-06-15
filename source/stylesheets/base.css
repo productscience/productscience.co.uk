@@ -1,0 +1,59 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.header,
+#hero,
+#services,
+#team,
+#contact {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:5em;
+}
+
+#services {
+  background-color: #efefef;
+}
+
+#hero {
+  background-color: #8BD0AA;
+  padding: 4em 4em 4em 5em
+}
+#hero h2{
+  color: white
+}
+
+.people,
+.process{
+  max-width:80%;
+  border:1px solid red
+}
+#team {}
