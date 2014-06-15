@@ -11,7 +11,7 @@
 body {
     line-height: 1.7em;
     color: #7f8c8d;
-    font-size: 13px;
+/*    font-size: 13px;*/
 }
 
 h1,
@@ -29,23 +29,26 @@ label {
     height: auto;
 }
 
-.header,
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em 0 1em 3em;
+}
+
 #hero,
 #services,
 #team,
 #contact {
   margin-left: auto;
   margin-right: auto;
-  padding-left:5em;
+  padding: 3em 0 3em 3em;
 }
 
 #services {
   background-color: #efefef;
 }
-
 #hero {
   background-color: #8BD0AA;
-  padding: 4em 4em 4em 5em
 }
 #hero h2{
   color: white
@@ -54,6 +57,12 @@ label {
 .people,
 .process{
   max-width:80%;
-  border:1px solid red
 }
-#team {}
+#team {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+footer{
+  background-color: #040401;
+  padding: 3em 0 3em 5em;
+}
