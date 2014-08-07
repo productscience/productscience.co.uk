@@ -4,14 +4,10 @@
     box-sizing: border-box;
 }
 
-/*
- * -- BASE STYLES --
- * Most of these are inherited from Base, but I want to change a few.
- */
+
 body {
     line-height: 1.7em;
     color: #7f8c8d;
-/*    font-size: 13px;*/
 }
 
 h1,
@@ -22,6 +18,14 @@ h5,
 h6,
 label {
     color: #34495e;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size:90%;
 }
 
 .pure-img-responsive {
@@ -35,34 +39,43 @@ label {
   padding: 0.5em 0 1em 3em;
 }
 
-#hero,
-#services,
-#team,
-#contact {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3em 0 3em 3em;
+.header h1{
+  padding-bottom:6px;
+  margin-bottom:0;
+}
+.header p{
+  margin: 0;
+  padding: 0;
 }
 
-#services {
+
+#team {
   background-color: #efefef;
 }
 #hero {
-  background-color: #8BD0AA;
+  /*background-color: #8BD0AA;*/
+  background-image: url("https://www.amee.com/assets/company/top_background-4c985599c917db60e3ee9c2e788c3a8e.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  background-position: center bottom;
+  min-height:300px
 }
 #hero h2{
-  color: white
+  font-size: 2em;
+  line-height: 1.7em;
+  font-weight: normal;
+  color: white;
+  font-family: "Lato";
+  width: 30em;
 }
 
-.people,
-.process{
-  max-width:80%;
-}
-#team {
-  border-bottom: 1px solid #e5e5e5;
+#contact{
+    background-color: #FFEC54;
+
 }
 
 footer{
   background-color: #040401;
-  padding: 3em 0 3em 5em;
+  padding: 1em 0 1em 5em;
 }
