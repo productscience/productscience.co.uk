@@ -17,25 +17,26 @@
 
       .pure-u-1
         .header
-          %h1 Product Science
 
-          %ul
-            %li Home
-            %li Services
-            %li Team
-            %li Contact
+          .pure-u-1-2
+            %h1 Product Science
 
-
+          .pure-u-1-3
+            %ul.pure-menu.pure-menu-horizontal
+              %li Home
+              %li Services
+              %li Team
+              %li Contact
 
       .pure-u-1
         #hero
 
           %h2 Cleanweb Product Development
-          %h3 We build digital products to help people solve environmental and social problems. If that sounds like you, we’re here to help you get where you need to be.
+          %h3 We build digital products to help people solving environmental and social problems. If that sounds like you, we’re here to help you get where you need to be.
 
       .pure-u-1
 
-        #services
+        #services.pure-g
 
           .pure-u-1-3
 
@@ -55,7 +56,7 @@
               %p We keep your sites and applications online with secure, reliable, flexible cloud hosting, running on planet friendly, zero-carbon energy.
 
       .pure-u-1
-        #team
+        #team.pure-g
 
           .pure-u-1-3
             .chris
@@ -79,33 +80,48 @@
         #contact
           %h2 Contact
 
-          .pure-u-1-2
+          .pure-g
 
-            %form
-              %input{ title: "name", type: "text", value: "name"}
-              %input{ title: "email", type: "text", value: "email"}
+            .pure-u-1-2
 
-              %textarea{ title: "something", value: "bink"}
-              %button.pure-button.pure-button-primary Send message
+              %form
+                %input{ title: "name", type: "text", value: "name"}
+                %input{ title: "email", type: "text", value: "email"}
+
+                %textarea{ title: "something", value: "bink"}
+                %button.pure-button.pure-button-primary Send message
 
 
-          .pure-u-1-2
+            .pure-u-1-2
 
-            %h3 Email:
-            %h4 contact@productscience.co.uk
-            %h3 Phone:
-            %h4 0203 322 5777
-            %h3 Address:
-            %h4 London
-            %h5 109 Pembury Road
-            %h5 London N17 8LY
-            %h4 Berlin
-            %h5 109 Pembury Road
-            %h5 London N17 8LY
+              .pure-g
 
-            %div.company-details
-              %p Product Science Ltd is a company registered in England and Wales.
-              %p Reg. No: 08332887. VAT No: GB172453217
+                .pure-u-1-2
+
+                  %h3 Email:
+                  %h4 contact@productscience.co.uk
+
+                .pure-u-1-2
+                  %h3 Phone:
+                  %h4 0203 322 5777
+
+              .pure-g
+
+                .pure-u-1-1
+                  %h3 Address:
+
+                .pure-u-1-2
+                  %h4 London
+                  %h5 109 Pembury Road
+                  %h5 London N17 8LY
+                .pure-u-1-2
+                  %h4 Berlin
+                  %h5 109 Pembury Road
+                  %h5 London N17 8LY
+
+              %div.company-details
+                %p Product Science Ltd is a company registered in England and Wales.
+                %p Reg. No: 08332887. VAT No: GB172453217
 
       .pure-u-1
         %footer
