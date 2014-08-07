@@ -8,6 +8,8 @@
     = stylesheet_link_tag 'pure'
     = stylesheet_link_tag 'grids-responsive'
     = stylesheet_link_tag 'base'
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Lato:300,400,700'
+
 
   %body
 
@@ -16,65 +18,95 @@
       .pure-u-1
         .header
           %h1 Product Science
-          %p.tagline Cleanweb Product Development
+
+          %ul
+            %li Home
+            %li Services
+            %li Team
+            %li Contact
+
+
 
       .pure-u-1
         #hero
-          %p.subtitle We help you create software to tackle environmental and social problems.
+
+          %h2 Cleanweb Product Development
+          %h3 We build digital products to help people solve environmental and social problems. If that sounds like you, we’re here to help you get where you need to be.
 
       .pure-u-1
 
         #services
-          %h2 What we do
 
-          .process
+          .pure-u-1-3
 
-            /
-              .pure-u-1-2
-                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            .user-research
+              %h3 User research
+              %p We build accessible, elegant, usable sites and web applications with open source software, and agile development practices. Our key languages are Python and Ruby.
 
-            .pure-u-1-2
-              .development
-                %h3 Web development
-                %h Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          .pure-u-1-3
 
-            .pure-u-1-3
-              .hosting
-                %h3 Hosting
-                %h Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            .development
+              %h3 Development
+              %p We build accessible, elegant, usable sites and web applications with open source software, and agile development practices. Our key languages are Python and Ruby.
+
+          .pure-u-1-3
+            .hosting
+              %h3 Hosting
+              %p We keep your sites and applications online with secure, reliable, flexible cloud hosting, running on planet friendly, zero-carbon energy.
 
       .pure-u-1
         #team
 
-          %div{:class => "people" }
-            .pure-g
-              .pure-u-1-2
-                %h2 Who we are
-                .team Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .pure-u-1-3
+            .chris
+              %h3 Chris Adams
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-              .pure-u-1-4
-                .chris
-                  %h3 Chris Adams
-                  %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          .pure-u-1-3
+            .joe
 
-              .pure-u-1-4
-                .joe
-                  %h3 Joe Short
-                  %p Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              %h3 Joe Short
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+          .pure-u-1-3
+
+            .phillippa
+              %h3 Phillippa Morland
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
       .pure-u-1
 
         #contact
           %h2 Contact
-          .pure-g
-            .pure-u-1-2
-              %p Product Science Ltd is a company registered in England and Wales, under company number 8369027.
 
-            .pure-u-1-2
+          .pure-u-1-2
+
+            %form
+              %input{ title: "name", type: "text", value: "name"}
+              %input{ title: "email", type: "text", value: "email"}
+
+              %textarea{ title: "something", value: "bink"}
+              %button.pure-button.pure-button-primary Send message
 
 
+          .pure-u-1-2
 
+            %h3 Email:
+            %h4 contact@productscience.co.uk
+            %h3 Phone:
+            %h4 0203 322 5777
+            %h3 Address:
+            %h4 London
+            %h5 109 Pembury Road
+            %h5 London N17 8LY
+            %h4 Berlin
+            %h5 109 Pembury Road
+            %h5 London N17 8LY
+
+            %div.company-details
+              %p Product Science Ltd is a company registered in England and Wales.
+              %p Reg. No: 08332887. VAT No: GB172453217
 
       .pure-u-1
         %footer
-          %p blurb
+          %p © 2014 Product Science. Hosted on zero carbon servers in Iceland, by Greenqloud. Other credits for bits in use. Impressum
