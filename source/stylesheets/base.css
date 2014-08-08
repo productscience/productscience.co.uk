@@ -1,9 +1,19 @@
+/* doing this sacrifices backwards compatibility  with IE7, for cleaner markup */
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+.l-box {
+  padding:0 0 1em 4em;
+  border:1px solid blue;
+}
+
+.l-box > h2 {
+  padding:1em 0 0 0;
+  margin: 0;
+}
 
 body {
     line-height: 1.7em;
@@ -33,6 +43,7 @@ p {
     height: auto;
 }
 
+
 .header{
   margin-left: auto;
   margin-right: auto;
@@ -42,38 +53,121 @@ p {
 .header h1{
   padding-bottom:6px;
   margin-bottom:0;
+  background: url(/images/product-science-logo-75x75.png) no-repeat;
+  height: 80px;
+  width: 100px;
+  padding-left: 95px;
+  padding-top:  10px;
 }
 .header p{
   margin: 0;
   padding: 0;
 }
 
+.header .pure-menu li{
+  margin-left:2em;
+  margin-right:2em;
+  padding-top:2em
+}
+
+
+/* Header */
+
+
+#hero {
+  position:relative;
+}
+.tagline {
+  position:absolute;
+  top: 3.5em;
+  left: 65%;
+  width: 28em;
+}
+
+#hero h2{
+  font-size: 1.7em;
+  line-height: 1.7em;
+  padding:0px;
+  margin:0px;
+  font-weight: normal;
+  color: white;
+  font-family: "Lato";
+}
+#hero h3{
+  color: white;
+  font-size: 1.2em;
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: lighter;
+  padding:0;
+  margin:0.5em 0 0 0;
+}
+
+
+/* Services */
+
+.user-research p,
+.development p,
+.hosting p {
+  width: 20em;
+}
+
+/* Team */
 
 #team {
   background-color: #efefef;
 }
-#hero {
-  /*background-color: #8BD0AA;*/
-  background-image: url("https://www.amee.com/assets/company/top_background-4c985599c917db60e3ee9c2e788c3a8e.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  background-position: center bottom;
-  min-height:300px
-}
-#hero h2{
-  font-size: 2em;
-  line-height: 1.7em;
-  font-weight: normal;
-  color: white;
-  font-family: "Lato";
-  width: 30em;
+
+.chris p,
+.joe p,
+.phillippa p {
+  width: 20em;
 }
 
-#contact{
+
+/* Contact */
+
+#contact {
     background-color: #FFEC54;
+}
+
+#contact form .pure-g{
+  margin-bottom:1em;
+}
+#contact form .name {
+  /*margin-right:2em;*/
+}
+#contact form textarea {
+  width:85%;
+}
+
+#contact .address h3 {
+  padding: 0;
+  margin: 0 0 0.5em 0;
+}
+
+#contact ul.city {
+  margin-top:0;
+  padding-top:0;
+  padding-left:0
 
 }
+#contact ul.city li {
+  list-style-type:none;
+  color: #000000;
+}
+#contact ul.city li h4 {
+  padding: 0 0 0.5em 0;
+  margin: 0px;
+}
+
+.company-details p{
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0em;
+}
+
+/* Footer */
 
 footer{
   background-color: #040401;

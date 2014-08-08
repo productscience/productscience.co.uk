@@ -18,10 +18,10 @@
       .pure-u-1
         .header
 
-          .pure-u-1-2
+          .pure-u-1-3
             %h1 Product Science
 
-          .pure-u-1-3
+          .pure-u-1-2
             %ul.pure-menu.pure-menu-horizontal
               %li Home
               %li Services
@@ -31,97 +31,129 @@
       .pure-u-1
         #hero
 
-          %h2 Cleanweb Product Development
-          %h3 We build digital products to help people solving environmental and social problems. If that sounds like you, we’re here to help you get where you need to be.
+          %img.pure-img{ src:"/images/wind-turbine-road-2x.jpg" }
+
+          %div.tagline
+            %h2 Cleanweb Product Development
+            %h3 We build digital products to help people solving environmental and social problems.
+            %h3 If that sounds like you, we’re here to help you get where you need to be.
 
       .pure-u-1
 
-        #services.pure-g
+        #services
 
-          .pure-u-1-3
+          .pure-g
 
-            .user-research
-              %h3 User research
-              %p We build accessible, elegant, usable sites and web applications with open source software, and agile development practices. Our key languages are Python and Ruby.
+            .pure-u-1
 
-          .pure-u-1-3
+              .l-box
+                %h2 Services
 
-            .development
-              %h3 Development
-              %p We build accessible, elegant, usable sites and web applications with open source software, and agile development practices. Our key languages are Python and Ruby.
+          .pure-g
 
-          .pure-u-1-3
-            .hosting
-              %h3 Hosting
-              %p We keep your sites and applications online with secure, reliable, flexible cloud hosting, running on planet friendly, zero-carbon energy.
+            .pure-u-1-3
+
+              .user-research.l-box
+                %h3 User research
+                %p We build accessible, elegant, usable sites and web applications with open source software, and agile development practices. Our key languages are Python and Ruby.
+
+            .pure-u-1-3
+
+              .development.l-box
+                %h3 Development
+                %p We build accessible, elegant, usable sites and web applications with open source software, and agile development practices. Our key languages are Python and Ruby.
+
+            .pure-u-1-3
+              .hosting.l-box
+                %h3 Hosting
+                %p We keep your sites and applications online with secure, reliable, flexible cloud hosting, running on planet friendly, zero-carbon energy.
 
       .pure-u-1
-        #team.pure-g
+        #team
 
-          .pure-u-1-3
-            .chris
-              %h3 Chris Adams
-              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .pure-u-1
+            .l-box
+              %h2 Team
 
-          .pure-u-1-3
-            .joe
+          .pure-g
 
-              %h3 Joe Short
-              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            .pure-u-1-3
+              .chris.l-box
+                %h3 Chris Adams
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-          .pure-u-1-3
+            .pure-u-1-3
+              .joe.l-box
 
-            .phillippa
-              %h3 Phillippa Morland
-              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                %h3 Joe Short
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .pure-u-1-3
+
+              .phillippa.l-box
+
+                %h3 Phillippa Morland
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
       .pure-u-1
 
         #contact
-          %h2 Contact
+
+          .pure-u-1
+            .l-box
+              %h2 Contact
 
           .pure-g
 
             .pure-u-1-2
-
-              %form
-                %input{ title: "name", type: "text", value: "name"}
-                %input{ title: "email", type: "text", value: "email"}
-
-                %textarea{ title: "something", value: "bink"}
-                %button.pure-button.pure-button-primary Send message
+              .l-box
+                %form.pure-form
+                  .pure-g
+                    .pure-u-1-2
+                      %input{ title: "name", type: "text", placeholder: "name"}
+                    .pure-u-1-2
+                      %input{ title: "email", type: "text", placeholder: "email"}
+                  .pure-g
+                    .pure-u-1
+                      %textarea.pure-input-{ title: "message", placeholder: "Enter your message here", rows: 10 }
+                  .pure-g
+                    .pure-u-md-2-3
+                      %button.pure-button.pure-button-primary{ type: "submit" } Send message
 
 
             .pure-u-1-2
+              .l-box
+                .pure-g
+                  .pure-u-1-2
+                    %h3 Email:
+                    %h4 contact@productscience.co.uk
 
-              .pure-g
+                  .pure-u-1-2
+                    %h3 Phone:
+                    %h4 + 44 203 322 5777
 
-                .pure-u-1-2
+                .pure-g.address
 
-                  %h3 Email:
-                  %h4 contact@productscience.co.uk
+                  .pure-u-1-1
+                    %h3 Address:
 
-                .pure-u-1-2
-                  %h3 Phone:
-                  %h4 0203 322 5777
+                  .pure-u-1-2
+                    %ul.city
+                      %li
+                        %h4 London
+                      %li 109 Pembury Road
+                      %li London N17 8LY
 
-              .pure-g
+                  .pure-u-1-2
+                    %ul.city
+                      %li
+                        %h4 Berlin
+                      %li 109 Pembury Road
+                      %li London N17 8LY
 
-                .pure-u-1-1
-                  %h3 Address:
-
-                .pure-u-1-2
-                  %h4 London
-                  %h5 109 Pembury Road
-                  %h5 London N17 8LY
-                .pure-u-1-2
-                  %h4 Berlin
-                  %h5 109 Pembury Road
-                  %h5 London N17 8LY
-
-              %div.company-details
-                %p Product Science Ltd is a company registered in England and Wales.
-                %p Reg. No: 08332887. VAT No: GB172453217
+                %div.company-details
+                  %p Product Science Ltd is a company registered in England and Wales.
+                  %p Reg. No: 08332887. VAT No: GB172453217
 
       .pure-u-1
         %footer
