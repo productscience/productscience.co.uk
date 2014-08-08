@@ -124,6 +124,16 @@ p {
   width: 20em;
 }
 
+figure.portrait{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-left:50px;
+}
 
 /* Contact */
 
