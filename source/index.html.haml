@@ -23,10 +23,14 @@
 
           .pure-u-1-2
             %ul.pure-menu.pure-menu-horizontal
-              %li Home
-              %li Services
-              %li Team
-              %li Contact
+              %li
+                =link_to 'Home', '/'
+              %li
+                =link_to 'Services', '#services'
+              %li
+                =link_to 'Team', '#team'
+              %li
+                =link_to 'Contact', '#contact'
 
       .pure-u-1
         #hero
@@ -85,15 +89,16 @@
                   Chris Adams
 
                 %ul.profile-links
-                  %i.fa.fa-linkedin
-                    Chris Adams
+                  %li.linkedin
+                    %i.fa.fa-linkedin
+                    =link_to 'Chris Adams', "https://www.linkedin.com/pub/chris-adams/2/310/251"
 
                   %li.twitter
                     %i.fa.fa-twitter
-                    @mrchrisadams
+                    =link_to '@mrchrisadams', 'https://twitter.com/mrchrisadams'
                   %li.github
                     %i.fa.fa-github
-                    mrchrisadams
+                    =link_to 'mrchrisadams', 'https://github.com/mrchrisadams'
 
             .pure-u-1-3
               .joe.l-box
@@ -102,14 +107,15 @@
                 %h3 Joe Short
 
                 %ul.profile-links
-                  %i.fa.fa-linkedin
-                    Joe Short
+                  %li.linkedin
+                    %i.fa.fa-linkedin
+                    =link_to 'Joe Short', 'http://uk.linkedin.com/pub/joe-short/3/1a1/58b'
                   %li.twitter
                     %i.fa.fa-twitter
-                    @joeshort
+                    =link_to '@joeshort', 'https://twitter.com/joeshort'
                   %li.github
                     %i.fa.fa-github
-                    joeshort
+                    =link_to 'joeshort', 'https://github.com/joeshort'
 
 
             .pure-u-1-3
@@ -121,14 +127,17 @@
                 %h3 Phillippa Morland
 
                 %ul.profile-links
-                  %i.fa.fa-linkedin
-                    Phillippa Morland
+                  %li.linkedin
+                    %i.fa.fa-linkedin
+                    =link_to 'Phillippa Morland', 'http://de.linkedin.com/pub/phillippa-morland/89/68b/a1b'
                   %li.twitter
                     %i.fa.fa-twitter
-                    @phillimorland
+                    =link_to '@phillimorland', 'https://twitter.com/phillimorland'
                   %li.github
                     %i.fa.fa-github
-                    phillimorland
+                    =link_to 'phillimorland', 'https://github.com/phillimorland'
+
+
 
 
       .pure-u-1
