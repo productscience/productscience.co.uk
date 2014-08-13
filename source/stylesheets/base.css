@@ -7,7 +7,7 @@
 
 .l-box {
   padding:0 0 1em 4em;
-  border:1px solid blue;
+  /*border:1px solid blue;*/
 }
 
 .l-box > h2 {
@@ -53,6 +53,7 @@ p {
 .header h1{
   padding-bottom:6px;
   margin-bottom:0;
+  font-weight:normal;
   background: url(/images/product-science-logo-75x75.png) no-repeat;
   height: 80px;
   width: 100px;
@@ -68,6 +69,11 @@ p {
   margin-left:2em;
   margin-right:2em;
   padding-top:2em
+}
+
+ul.pure-menu {
+  float:right;
+
 }
 
 
@@ -118,10 +124,28 @@ p {
   background-color: #efefef;
 }
 
+.chris h3,
+.joe h3,
+.phillippa h3 {
+  padding-left:2em;
+}
+
+
 .chris p,
 .joe p,
 .phillippa p {
   width: 20em;
+}
+
+ul.profile-links {
+    /*display:inline;*/
+    /*padding-left:0;*/
+}
+
+.profile-links li{
+  list-style-type:none;
+  /*display:inline-block;*/
+
 }
 
 figure.portrait{
@@ -133,6 +157,23 @@ figure.portrait{
   border-radius: 100px;
   overflow: hidden;
   margin-left:50px;
+}
+
+/* Companies We've worked with*/
+
+#who-we-work-with h2{
+  margin-bottom: 2em;
+}
+
+
+figure.client-logo {
+  height: 150px;
+}
+
+figure.client-logo img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* Contact */
@@ -149,6 +190,11 @@ figure.portrait{
 }
 #contact form textarea {
   width:85%;
+}
+
+#contact h3{
+  padding: 0;
+  margin: 0 0 0.5em 0;
 }
 
 #contact .address h3 {
@@ -181,5 +227,5 @@ figure.portrait{
 
 footer{
   background-color: #040401;
-  padding: 1em 0 1em 5em;
+  padding: 0.5em 0 0.5em 5em;
 }
