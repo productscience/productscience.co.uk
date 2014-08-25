@@ -2,7 +2,7 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */ In Bootstrap line 3380 i have changes the padding and line height
+ * In Bootstrap line 3380 i have changes the padding and line height*/
 
 body {
     overflow-x: hidden;
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    /*text-transform: uppercase;*/
+    /*text-transform: uppercase;
     font-family: "Lato", Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 200;
     font-size: 25px;
@@ -78,7 +78,7 @@ h6 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 200;
     color: #fff;
-    background-color: #FFEC54;
+    /*background-color: #FFEC54;*/
 }
 
 .btn-primary:hover,
@@ -270,7 +270,7 @@ header {
     text-align: right;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../images/wind-turbine-road-2x.jpg);
+    background-image: url(../images/wind-turbine-road-2.2x.jpg);
     /*padding-top: -200px;*/
     background-repeat: none;
     -webkit-background-size: cover;
@@ -325,8 +325,8 @@ header .intro-heading {
         margin-bottom: 50px;
         font-family: "Lato",Helvetica,Arial,sans-serif;
         font-size: 75px;
-        font-style: italic;
-        font-weight: 700;
+        /*font-style: italic;*/
+        font-weight: 300;
         line-height: 75px;
     }
 }
@@ -339,6 +339,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    color: #737373; 
 }
 
 section h3.section-subheading {
