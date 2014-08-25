@@ -51,9 +51,9 @@ h3,
 h4,
 h5,
 h6 {
-    /*text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: "Lato", Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 25px;
 }
 
@@ -270,7 +270,7 @@ header {
     text-align: right;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../images/wind-turbine-road-2.2x.jpg);
+    background-image: url(../images/wind-turbine-road-2.3x.jpg);
     /*padding-top: -200px;*/
     background-repeat: none;
     -webkit-background-size: cover;
@@ -280,32 +280,27 @@ header {
 }
 
 header .intro-text {
-    /*padding-top: 70px;*/
+    padding-top: 100px;
     /*padding-bottom: 0px;*/
-    text-shadow: 1.7px 0px 0px rgba(148, 150, 150, 1);
-}
 
-header .intro-text .intro-lead-in h3{
-    font-family: "Lato",Helvetica,Arial,sans-serif;
-    margin-bottom: 0px;
-    line-height: 20px;
-    text-shadow: 1.7px 0px 0px rgba(148, 150, 150, 1);
 }
-header .intro-heading {
+/*header .intro-heading {*/
     /*font-size: 15px*/
     /*font-weight: 100px;*/
 }
 .intro-text h2{
     font-size: 30px;
-    font-weight: 300px;
+    font-weight: 200px;
+    line-height: 50px;
 }
 
-    /*header .intro-text .intro-heading {*/
-    /*margin-bottom: 25px;*/
-    /*font-family: "Lato",Helvetica,Arial,sans-serif;*/
-    /*font-size: 50px;*/
-    /*font-weight: 200;*/
-    /*line-height: 50px;*/
+header .intro-text .intro-heading {
+    margin-bottom: 250px;
+    margin-top:50px;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 50px;
 
 
 @media(min-width:768px) {
@@ -315,7 +310,29 @@ header .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 100px;
+        font-family: "Lato",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-family: "Lato",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        /*font-style: italic;*/
+        font-weight: 300;
+        line-height: 75px;
+    }
+}
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 100px;
         font-family: "Lato",Helvetica,Arial,sans-serif;
         font-size: 40px;
         line-height: 40px;
@@ -659,10 +676,11 @@ section h3.section-subheading {
 }
 
 aside.clients img {
-    margin: 30px auto;
+    margin: 50px auto;
     padding: 0px;
-    position: inline;
+    position: right;
 }
+
 
 section#contact {
     background-color: #f7f7f7;
@@ -876,6 +894,12 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #FFEC54;
 }
+
+.team-member h6{
+    font-size: 20px;
+}
+
+
 
 
 
