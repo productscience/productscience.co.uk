@@ -279,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: right;
-    color: #fff;
+    color: #ffffff;
     background-attachment: scroll;
     background-image: url(../images/wind-turbine-road-2.3x.jpg);
     /*padding-top: -200px;*/
@@ -292,6 +292,7 @@ header {
 
 header .intro-text {
     padding-top: 100px;
+    color: #ffffff;
     /*padding-bottom: 0px;*/
 
 }
@@ -299,11 +300,13 @@ header .intro-heading h3{
     font-size: 0.5em;
     font-weight: 200;
     line-height: 2em;
+    color: #ffffff;
 }
 .intro-text h2{
     font-size: 30px;
     font-weight: 200px;
     line-height: 50px;
+    color: #ffffff;
 }
 
 header .intro-text .intro-heading {
@@ -313,6 +316,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 200;
     line-height: 50px;
+    color: #ffffff;
 
 
 @media(min-width:768px) {
@@ -703,6 +707,9 @@ section#contact {
 
 section#contact .section-heading {
     color: #777;
+}
+section #contact .section-subheading {
+    font-weight: 400;
 }
 
 section#contact .form-group {
