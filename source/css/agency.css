@@ -9,6 +9,17 @@ body {
     font-family: "Lato", Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+#services h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+#services h2{
+    font-weight: 700;
+}
+#services .container{
+    padding-bottom: 2em;
+}
+
 .text-muted {
     color: #777;
 }
@@ -53,7 +64,7 @@ h5,
 h6 {
     /*text-transform: uppercase;*/
     font-family: "Lato", Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 25px;
 }
 
@@ -284,9 +295,10 @@ header .intro-text {
     /*padding-bottom: 0px;*/
 
 }
-/*header .intro-heading {*/
-    /*font-size: 15px*/
-    /*font-weight: 100px;*/
+header .intro-heading h3{
+    font-size: 0.5em;
+    font-weight: 200;
+    line-height: 2em;
 }
 .intro-text h2{
     font-size: 30px;
@@ -377,6 +389,7 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
 
 /*#portfolio .portfolio-item {*/
     /*right: 0;*/
