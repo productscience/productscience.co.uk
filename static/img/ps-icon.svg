@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 1 + icon_648 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F5DF43" offset="0%"></stop>
+            <stop stop-color="#F8E71C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3A3A3A" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-faffing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-1-+-icon_648-3">
+            <g id="Oval-1" fill="url(#linearGradient-1)">
+                <circle cx="50" cy="50" r="50"></circle>
+            </g>
+            <g id="icon_648-2" transform="translate(27.472222, 14.236111)" stroke="#000000">
+                <rect id="Rectangle-path" fill="#000000" transform="translate(8.408544, 45.145062) rotate(30.000728) translate(-8.408544, -45.145062) " x="-0.656903635" y="43.5864162" width="17.920201" height="3.0636751"></rect>
+                <path d="M31.3571341,55.9965342 C35.8443166,51.7781211 38.6821766,45.8439125 38.6821766,39.2263783 C38.6821766,31.0669974 34.3881862,23.7131425 27.7071172,19.5801451 L35.188464,6.66055375 L34.0124308,5.98096903 L35.8630731,2.78567389 L31.0257691,0 L29.1751267,3.19280125 L27.934071,2.48079597 L9.53706033,34.261669 L11.1469941,35.1887722 L8.86557726,39.1278697 L12.9019783,41.4503038 L15.1840204,37.5155706 L16.7895777,38.4414268 L24.5247626,25.0766763 C29.273911,28.0899175 32.3118405,33.3719742 32.3118405,39.2257549 C32.3118405,48.4749653 24.7654711,55.9959107 15.4897515,55.9959107 L1.93254579,55.9959107 L1.93254579,62.3472222 L40.0914158,62.3472222 L40.0914158,55.9965342 L31.3571341,55.9965342 L31.3571341,55.9965342 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
