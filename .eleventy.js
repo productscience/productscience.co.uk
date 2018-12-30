@@ -2,9 +2,9 @@ module.exports = function(eleventyConfig) {
 
   // register these for copying content across
   // if we used a pipeline tool, like webpack, we wouldn't use these (I think)
-  eleventyConfig.addPassthroughCopy("js");
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/css");
 
   return {
     templateFormats: [
