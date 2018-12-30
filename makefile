@@ -1,10 +1,10 @@
 serve:
-	hugo serve -w --verbose
+	npx eleventy --serve
 
 install:
-	brew install hugo
+	npm install
 
 build:
-	hugo --verbose
+	eleventy
 
 .PHONY: install
